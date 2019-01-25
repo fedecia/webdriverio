@@ -8,7 +8,7 @@ export default class CLInterface {
         this.stderrBuffer = []
         this.out = ::process.stdout.write
         this.err = ::process.stderr.write
-        this.inDebugMode = false
+        this.inDebugMode = true
 
         this.clearAll()
 
